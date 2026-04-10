@@ -1,0 +1,13 @@
+name: sports-talent-env
+version: 1.0
+
+env:
+  entry_point: env:SportsTalentEnv
+
+tasks:
+  - name: easy
+    grader: graders:easy_grader
+  - name: medium
+    grader: graders:medium_grader
+  - name: hard
+    grader: graders:hard_grader
